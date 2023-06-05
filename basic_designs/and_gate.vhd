@@ -1,6 +1,8 @@
 -- Simple AND gate implementation
 -- Inputs: A, B
 -- Output: Y
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity AND_gate is
   port (
